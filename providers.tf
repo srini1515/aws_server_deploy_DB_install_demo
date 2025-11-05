@@ -7,7 +7,7 @@ terraform {
   }
 
   cloud {
-    organization = "<your-terraform-cloud-org-name>"
+    organization = "srinivasanmani1515"
 
     workspaces {
       name = "aws-linux-demo"
@@ -18,5 +18,5 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-south-1"
+  region = "ap-south-2"
 }
